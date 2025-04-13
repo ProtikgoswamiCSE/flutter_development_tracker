@@ -36,7 +36,7 @@ class Task_13 extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: CircleAvatar(
-              backgroundImage: AssetImage('assets/salma.jpg'),
+              backgroundImage: AssetImage('assets/protik.jpg'),
               radius: 20,
             ),
           ),
