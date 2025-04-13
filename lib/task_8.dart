@@ -54,6 +54,7 @@ class HomeScreen extends StatelessWidget {
                 );
               },
             ),
+
             ListTile(
               title: Text('Profile'),
               onTap: () {
@@ -64,6 +65,7 @@ class HomeScreen extends StatelessWidget {
                 );
               },
             ),
+
             ListTile(
               title: Text('Settings'),
               onTap: () {
