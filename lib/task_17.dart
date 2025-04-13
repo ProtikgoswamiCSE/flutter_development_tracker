@@ -21,12 +21,12 @@ class _Task_17State extends State<Task_17> {
       theme: isDarkMode ? ThemeData.dark() : ThemeData.light(),
       home: Scaffold(
         appBar: AppBar(
-          title: Text(
-            'Task_17',
-            style: TextStyle(fontWeight: FontWeight.bold),
-          ),
+          title: Text('Task_17', style: TextStyle(fontWeight: FontWeight.bold)),
           centerTitle: true,
-          backgroundColor: isDarkMode ? Colors.black : Colors.purple,
+          backgroundColor:
+              isDarkMode
+                  ? Colors.black
+                  : const Color.fromARGB(255, 22, 107, 96),
           elevation: 4,
         ),
         body: Center(
@@ -56,7 +56,10 @@ class _Task_17State extends State<Task_17> {
                   height: 50,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(30),
-                    color: isDarkMode ? Colors.black : Colors.purple,
+                    color:
+                        isDarkMode
+                            ? Colors.black
+                            : const Color.fromARGB(255, 39, 176, 135),
                     boxShadow: [
                       BoxShadow(
                         color: Colors.black26,

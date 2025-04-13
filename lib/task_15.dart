@@ -1,16 +1,23 @@
 import 'package:flutter/material.dart';
+// ignore: depend_on_referenced_packages
 import 'package:intl/intl.dart';
+// ignore: depend_on_referenced_packages
 import 'package:timezone/data/latest_all.dart' as tz;
+// ignore: depend_on_referenced_packages
 import 'package:timezone/timezone.dart' as tz;
+// ignore: depend_on_referenced_packages
 import 'package:animated_text_kit/animated_text_kit.dart';
 
+// ignore: camel_case_types
 class Task_15 extends StatefulWidget {
   const Task_15({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _Task_15State createState() => _Task_15State();
 }
 
+// ignore: camel_case_types
 class _Task_15State extends State<Task_15> {
   DateTime? selectedDate;
   TimeOfDay? selectedTime;
@@ -90,6 +97,7 @@ class _Task_15State extends State<Task_15> {
               duration: Duration(seconds: 1),
               padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
               decoration: BoxDecoration(
+                // ignore: deprecated_member_use
                 color: const Color.fromARGB(255, 174, 58, 130).withOpacity(0.5),
                 borderRadius: BorderRadius.circular(15),
                 boxShadow: [

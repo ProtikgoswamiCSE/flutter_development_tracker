@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: camel_case_types
 class Task_10 extends StatefulWidget {
   const Task_10({super.key});
 
@@ -7,6 +8,7 @@ class Task_10 extends StatefulWidget {
   State<Task_10> createState() => _Task_10State();
 }
 
+// ignore: camel_case_types
 class _Task_10State extends State<Task_10> {
   int _selectedIndex = 0;
 
@@ -73,7 +75,10 @@ class HomePage extends StatelessWidget {
 }
 
 // Search Page
+// ignore: camel_case_types
 class scree extends StatelessWidget {
+  const scree({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(debugShowCheckedModeBanner: false, home: SearchPage());
@@ -81,12 +86,15 @@ class scree extends StatelessWidget {
 }
 
 class SearchPage extends StatefulWidget {
+  const SearchPage({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _SearchPageState createState() => _SearchPageState();
 }
 
 class _SearchPageState extends State<SearchPage> {
-  TextEditingController _searchController = TextEditingController();
+  final TextEditingController _searchController = TextEditingController();
   List<String> items = [
     "Apple",
     "Banana",
